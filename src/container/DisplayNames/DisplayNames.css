@@ -1,0 +1,37 @@
+.SingleName {
+    width: 89px;
+    height: 36px;
+    border: 1px solid black;
+    margin-left: 26px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(6, 170, 36, 1);
+    color: rgba(255, 254, 254, 1);
+    font-size: 14px;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 0)
+}
+.NameContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.MutipleChoiceName {
+    width: 89px;
+    height: 36px;
+    border: 1px solid black;
+    margin-left: 26px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 1);
+}

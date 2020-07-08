@@ -1,0 +1,36 @@
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.type1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(147, 154, 161, 0.7);
+    color: rgba(249, 246, 246, 1);
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto;
+    border: 1px solid rgba(255, 255, 255, 0);
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Word {
+    color: rgba(249, 246, 246, 1);
+}
+.navContainer {
+    display: flex;
+    margin-left: 32px;
+}
+.CorrectRate {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+
+    font-family: SourceHanSansSC-regular;
+}
