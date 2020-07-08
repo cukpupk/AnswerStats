@@ -38,7 +38,7 @@ function App() {
                     <div>
                         <div className={classes.root}>
                             <div className="circleBase type1" style={{ background: Clicked===0 ? "blue" : null}}>
-                                <Link to="/" style={{ color:"white", textDecoration: "none"}} onClick={()=>setClicked(0)}>
+                                <Link to="/AnswerStats" style={{ color:"white", textDecoration: "none"}} onClick={()=>setClicked(0)}>
                                     全部
                                 </Link>
                             </div>
@@ -46,7 +46,7 @@ function App() {
                                 return (
                                     <div key={item.id} className="navContainer">
                                         <div className="circleBase type1" style={{ background: Clicked===item.id ? "blue" : null}}>
-                                            <Link to={`/${item.id}`} style={{ color:"white", textDecoration: "none"}} onClick={()=>setClicked(item.id)}>
+                                            <Link to={`/AnswerStats/${item.id}`} style={{ color:"white", textDecoration: "none"}} onClick={()=>setClicked(item.id)}>
                                                 {item.Name}
                                             </Link>
                                         </div>
